@@ -1,0 +1,29 @@
+{
+  "name": "onloonUI-theme-default",
+  "version": "1.0.0",
+  "description": "onloon component default theme.",
+  "main": "lib/index.css",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "postcss -c postcss.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "onloonUI",
+    "theme"
+  ],
+  "author": "monkeyWangs <wang.wei@loonxi.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0"
+  }
+}

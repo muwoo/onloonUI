@@ -1,0 +1,49 @@
+/*
+    Transition
+  -------------------------- */
+/* Colors
+  -------------------------- */
+/* Border radius
+    --------------------------- */
+/* Button
+    --------------------------- */
+.lx-button {
+  display: inline-block;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  border: 1px solid #C0CCDA;
+  text-align: center;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+.lx-button-default:hover {
+  border: 1px solid #20a0ff;
+  color: #20a0ff;
+}
+.lx-button-primary {
+  background: #20a0ff;
+  color: #fff;
+  border: 1px solid #20a0ff;
+  text-align: center;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+.lx-button-primary:hover {
+  border: 1px solid #4db3ff;
+  background: #4db3ff;
+}
+.lx-button-text {
+  background: #fff;
+  color: #20a0ff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+.lx-button-text:hover {
+  color: #4db3ff;
+}
