@@ -29,6 +29,9 @@
           }, {
             name: 'Editor',
             href: '#/editor'
+          }, {
+            name: 'LimitTextarea',
+            href: '#/limitTextarea'
           }]
         }]
       }
