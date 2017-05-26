@@ -56,7 +56,7 @@
         content: '',
         options: [
           ['rows', '列高', 'Number', '-', '4'],
-          ['maxLength', '最大长度限制', 'Number', '-', '20'],
+          ['maxLen', '最大长度限制', 'Number', '-', '20'],
           ['isCut', '超出字符是否裁剪', 'Boolean', '-', 'false'],
           ['value', '绑定值', 'String, Number', '-', '-'],
           ['placeholder', 'placeholder', 'String', '-', '请输入内容']
