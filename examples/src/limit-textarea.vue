@@ -58,10 +58,12 @@
           ['rows', '列高', 'Number', '-', '4'],
           ['maxLength', '最大长度限制', 'Number', '-', '20'],
           ['isCut', '超出字符是否裁剪', 'Boolean', '-', 'false'],
+          ['value', '绑定值', 'String, Number', '-', '-'],
           ['placeholder', 'placeholder', 'String', '-', '请输入内容']
         ],
         events: [
-          ['overText', '超出限制长度触发', 'content']
+          ['overText', '超出限制长度触发', 'content'],
+          ['change', '在 Input 值改变时触发', 'value']
         ],
         basics: [
           '<lx-limit-textarea :rows="6" :isCut="true" placeholder="最多输入20个字符"></lx-limit-textarea>'
