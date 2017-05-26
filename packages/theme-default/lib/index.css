@@ -85,3 +85,16 @@
 .lx-limit-text .lx-limit-num.lx-limit-num-over {
   color: #ff4949;
 }
+.lx-show-more {
+  font-size: 13px;
+  color: #000;
+}
+.lx-show-more .lx-show-more-link {
+  color: #20a0ff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.lx-show-more .lx-show-more-href {
+  color: #20a0ff;
+  cursor: pointer;
+}

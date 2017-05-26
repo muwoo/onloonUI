@@ -8,8 +8,8 @@
       <div class="component" v-for="component in components">
         <span>{{component.name}}</span>
         <ul>
-          <li v-for="cmp in component.group">
-            <a :href="cmp.href">{{cmp.name}}</a>
+          <li v-for="(cmp,index) in component.group">
+            <a @click="active=index" :class="active===index ? 'active' : ''" :href="cmp.href">{{cmp.name}}</a>
           </li>
         </ul>
       </div>
@@ -21,6 +21,7 @@
   export default{
     data () {
       return {
+        active: '',
         components: [{
           name: 'Basic',
           group: [{
@@ -32,6 +33,9 @@
           }, {
             name: 'LimitTextarea',
             href: '#/limitTextarea'
+          }, {
+            name: 'ShowMore',
+            href: '#/showMore'
           }]
         }]
       }
@@ -47,6 +51,9 @@
     .menu-title{
       .component{
         margin-left: 20px;
+        li{
+          padding: 10px 0;
+        }
         span{
           color: @gray;
         }
@@ -56,6 +63,9 @@
           text-decoration: none;
         }
         a:hover{
+          color: @mainColor;
+        }
+        a.active{
           color: @mainColor;
         }
       }
