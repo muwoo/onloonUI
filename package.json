@@ -12,10 +12,12 @@
   },
   "dependencies": {
     "css-loader": "^0.28.1",
+    "highlight.js": "^9.11.0",
     "less": "^2.7.2",
     "less-loader": "^4.0.3",
     "monkeywang-simditor": "^2.3.6",
     "monkeywang-simple-uploader": "^2.1.0",
+    "simditor": "^2.3.6",
     "vue": "^2.2.6",
     "vue-router": "^2.3.1"
   },
